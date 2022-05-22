@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant-API</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <div class="container">
+
+
+        <h3>API ресторану</h3>
+        <div class="row">
+
+            <div class="form-group col-md-6">
+                <h5>Додати сезон</h5>
+                <form action="javascript:void(0);" method="POST" onsubmit="addSeason()">
+                    <input class="form-control " type="text" id="add-name" name="name" placeholder="Назва">
+                    <input class="form-control " type="text" id="add-start-date" name="startDate" placeholder="Дата початку">
+                    <input class="form-control " type="text" id="add-end-date" name="endDate" placeholder="Дата кінця">
+                    <input class="form-control " type="text" id="add-description" name="description" placeholder="Опис">
+                    <div class="col-md-12 text-center">
+
+                        <input class="btn btn-success " type="submit" value="Додати">
+                    </div>
+                </form>
+            </div>
+
+            <div id="editSeason" class="form-group col-md-6">
+                <h5>Редагувати сезон</h5>
+                <form action="javascript:void(0);" onsubmit="updateSeason()">
+                    <input type="hidden" id="edit-id">
+                    <input class="form-control " type="text" id="edit-name" placeholder="Назва">
+                    <input class="form-control " type="text" id="edit-start-date" placeholder="Дата початку">
+                    <input class="form-control " type="text" id="edit-end-date" placeholder="Дата кінця">
+                    <input class="form-control " type="text" id="edit-description" placeholder="Опис">
+                    <div class="col-md-12 text-center">
+                        <input class="btn btn-primary " type="submit" value="Зберегти">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="col-md-12 text-center">
+            <a onclick="closeInput()" class="btn btn-outline-danger clear " aria-label="Close" href="">Очистити</a>
+        </div>
+        <p id="counter"></p>
+
+        <table class="table">
+            <tr>
+                <th>Назва</th>
+                <th>Дата початку</th>
+                <th>Дата кінця</th>
+                <th>Опис</th>
+            </tr>
+            <tbody id="seasons"></tbody>
+        </table>
+    </div>
+
+    <script src="js/lab2.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        window.onload = function (e) {
+            console.log("loaded");
+            getSeasons();
+        }
+    </script>
+</body>
+</html>
