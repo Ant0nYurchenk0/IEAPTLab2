@@ -9,7 +9,7 @@ namespace IEAPTLab2.Validation
         {
             var order = (Order)validationContext.ObjectInstance;
 
-            if(order.Phone != null || order.Email != null)
+            if (order.Phone != null || order.Email != null)
                 return ValidationResult.Success;
             return new ValidationResult("Обов'язково вкажіть хоча б один спосіб зв'язку");
         }

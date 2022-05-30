@@ -12,7 +12,7 @@ namespace IEAPTLab2.Models
         [MaxLength(50)]
         [Display(Name = "Назва сезону")]
         public string Name { get; set; }
-        
+
         [StartDateLessThanEndDate]
         [Required(ErrorMessage = "Сезон обов'язково повинен мати дату початку")]
         [Display(Name = "Дата початку сезону")]

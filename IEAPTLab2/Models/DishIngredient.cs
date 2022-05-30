@@ -11,7 +11,7 @@ namespace IEAPTLab2.Models
         public int IngredientId { get; set; }
         public Dish Dish { get; set; }
         public Ingredient Ingredient { get; set; }
-        [Required]       
+        [Required]
         public int Quantity { get; set; }
     }
 }

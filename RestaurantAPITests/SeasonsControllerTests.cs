@@ -1,8 +1,7 @@
 using IEAPTLab2.Controllers;
 using IEAPTLab2.Models;
-using System.Web;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace RestaurantAPITests
 {

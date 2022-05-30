@@ -9,7 +9,7 @@ namespace IEAPTLab2.Validation
         {
             var season = (Season)validationContext.ObjectInstance;
 
-            if (DateTime.Compare(season.StartDate, season.EndDate)> 0)
+            if (DateTime.Compare(season.StartDate, season.EndDate) > 0)
                 return new ValidationResult("Дата початку має бути раніше дати кінця");
             return ValidationResult.Success;
 

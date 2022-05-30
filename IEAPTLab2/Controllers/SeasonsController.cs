@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using IEAPTLab2.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using IEAPTLab2.Models;
 
 namespace IEAPTLab2.Controllers
 {
@@ -53,7 +48,7 @@ namespace IEAPTLab2.Controllers
             return BadRequest(Season);
         }
         [HttpDelete]
-        public async Task<IActionResult> Delete( int id)
+        public async Task<IActionResult> Delete(int id)
         {
             Console.WriteLine(id);
             if (!SeasonExists(id))

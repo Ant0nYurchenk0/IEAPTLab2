@@ -10,10 +10,10 @@ namespace IEAPTLab2.Models
         }
         public int Id { get; set; }
 
-        [Required(ErrorMessage ="Страва обов'язково повинен мати назву")]
+        [Required(ErrorMessage = "Страва обов'язково повинен мати назву")]
         [MinLength(3)]
         [MaxLength(50)]
-        [Display(Name ="Назва страви")]
+        [Display(Name = "Назва страви")]
         public string Name { get; set; }
 
         [MaxLength(225)]

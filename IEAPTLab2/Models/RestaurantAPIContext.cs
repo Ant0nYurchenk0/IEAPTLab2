@@ -13,7 +13,7 @@ namespace IEAPTLab2.Models
         public virtual DbSet<MenuDish> MenuDishes { get; set; }
         public virtual DbSet<OrderedDish> OrderedDishes { get; set; }
 
-        public RestaurantAPIContext(DbContextOptions<RestaurantAPIContext> options):base(options)
+        public RestaurantAPIContext(DbContextOptions<RestaurantAPIContext> options) : base(options)
         {
             Database.EnsureCreated();
         }

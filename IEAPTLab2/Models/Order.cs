@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using IEAPTLab2.Validation;
+﻿using IEAPTLab2.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace IEAPTLab2.Models
 {
@@ -27,12 +27,12 @@ namespace IEAPTLab2.Models
 
         [Phone]
         [EmailOrPhone]
-        [Display(Name ="Телефон замовника")]
+        [Display(Name = "Телефон замовника")]
         public string Phone { get; set; }
 
         [EmailAddress]
         [EmailOrPhone]
-        [Display(Name ="Email замовника")]
+        [Display(Name = "Email замовника")]
         public string Email { get; set; }
 
         public ICollection<Dish> Dishes { get; set; }

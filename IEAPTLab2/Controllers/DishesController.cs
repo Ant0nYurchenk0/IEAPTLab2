@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using IEAPTLab2.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using IEAPTLab2.Models;
 
 namespace IEAPTLab2.Controllers
 {
@@ -23,9 +18,9 @@ namespace IEAPTLab2.Controllers
         // GET: Dishes
         public async Task<IActionResult> Index()
         {
-              return _context.Dishes != null ? 
-                          View(await _context.Dishes.ToListAsync()) :
-                          Problem("Entity set 'RestaurantAPIContext.Dishes'  is null.");
+            return _context.Dishes != null ?
+                        View(await _context.Dishes.ToListAsync()) :
+                        Problem("Entity set 'RestaurantAPIContext.Dishes'  is null.");
         }
 
         // GET: Dishes/Details/5
@@ -151,14 +146,14 @@ namespace IEAPTLab2.Controllers
             {
                 _context.Dishes.Remove(dish);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool DishExists(int id)
         {
-          return (_context.Dishes?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Dishes?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
