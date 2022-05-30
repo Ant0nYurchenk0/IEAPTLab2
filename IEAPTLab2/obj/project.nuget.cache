@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlzrkYmW7sEgbnEHpEqKrO/DNWb8Vnlw008EKL3gy02xUEdQiz5bjl+HFfH03BjWZJf6K5Vjovj10TwfuGiSsw==",
+  "dgSpecHash": "h6PrweSEYpTQHBMI229u6yDhawDAb2i1OYwtFEVb1YNv6tyXOpPURXJSgrX/1qUb/8Ea9lguR+PmAhfSTdObGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anyur\\Documents\\C#\\IEAPTLab2\\IEAPTLab2\\IEAPTLab2.csproj",
+  "projectFilePath": "C:\\Users\\anyur\\Documents\\MyDocuments\\prog\\C#\\IEAPTLab2\\IEAPTLab2\\IEAPTLab2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anyur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\anyur\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

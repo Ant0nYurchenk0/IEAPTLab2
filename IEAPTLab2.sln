@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEAPTLab2", "IEAPTLab2\IEAPTLab2.csproj", "{87B2E323-D966-4F44-B1A5-EE718C01676B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEAPTLab2", "IEAPTLab2\IEAPTLab2.csproj", "{87B2E323-D966-4F44-B1A5-EE718C01676B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantAPITests", "RestaurantAPITests\RestaurantAPITests.csproj", "{8BDD591F-6553-4E6E-8F7C-808E4F7AB143}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{87B2E323-D966-4F44-B1A5-EE718C01676B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B2E323-D966-4F44-B1A5-EE718C01676B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B2E323-D966-4F44-B1A5-EE718C01676B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDD591F-6553-4E6E-8F7C-808E4F7AB143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDD591F-6553-4E6E-8F7C-808E4F7AB143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDD591F-6553-4E6E-8F7C-808E4F7AB143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDD591F-6553-4E6E-8F7C-808E4F7AB143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

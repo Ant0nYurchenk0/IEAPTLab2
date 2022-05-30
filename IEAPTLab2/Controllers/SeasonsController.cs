@@ -69,5 +69,6 @@ namespace IEAPTLab2.Controllers
         {
             return (_context.Seasons?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
     }
 }

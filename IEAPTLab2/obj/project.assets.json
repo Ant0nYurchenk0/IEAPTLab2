@@ -9655,11 +9655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anyur\\Documents\\C#\\IEAPTLab2\\IEAPTLab2\\IEAPTLab2.csproj",
+      "projectUniqueName": "C:\\Users\\anyur\\Documents\\MyDocuments\\prog\\C#\\IEAPTLab2\\IEAPTLab2\\IEAPTLab2.csproj",
       "projectName": "IEAPTLab2",
-      "projectPath": "C:\\Users\\anyur\\Documents\\C#\\IEAPTLab2\\IEAPTLab2\\IEAPTLab2.csproj",
+      "projectPath": "C:\\Users\\anyur\\Documents\\MyDocuments\\prog\\C#\\IEAPTLab2\\IEAPTLab2\\IEAPTLab2.csproj",
       "packagesPath": "C:\\Users\\anyur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anyur\\Documents\\C#\\IEAPTLab2\\IEAPTLab2\\obj\\",
+      "outputPath": "C:\\Users\\anyur\\Documents\\MyDocuments\\prog\\C#\\IEAPTLab2\\IEAPTLab2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anyur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9729,7 +9729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
